@@ -5,6 +5,7 @@ import Navegacion from './componentes/navegacion.jsx'
 import Section1 from './componentes/section1.jsx'
 import Section2 from './componentes/section2.jsx'
 import Section3 from './componentes/section3.jsx'
+import NuecoComponente from "./componentes/componentePueba.jsx"
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Section1/>
       <Section2/>
       <Section3/>
+      <NuecoComponente/>
     </>
   )
 }
