@@ -5,7 +5,6 @@ import {
   faUser,
   faEnvelope,
   faArrowUpRightFromSquare,
-  // Iconos sólidos (free-solid-svg-icons)
 } from '@fortawesome/free-solid-svg-icons';
 import { 
   faLinkedin, 
@@ -15,20 +14,22 @@ import {
   faJs,  
   faReact,
   faNode,
-} from '@fortawesome/free-brands-svg-icons';
+  faGithub, // ¡Importa el ícono de GitHub!
+} from '@fortawesome/free-brands-svg-icons'; // Asegúrate de que esté en esta colección
 
 const icons = {
   home: faHouse,
   user: faUser,
   email: faEnvelope,
-  linkedin: faLinkedin, // ¡Ahora funciona!
+  linkedin: faLinkedin,
   html5: faHtml5,
   css: faCss,
   sass: faSass,
-  js:faJs,
-  react:faReact,
+  js: faJs,
+  react: faReact,
   node: faNode,
-  link:faArrowUpRightFromSquare
+  link: faArrowUpRightFromSquare,
+  github: faGithub, // Ahora sí está definido
 };
 
 export default function Icon({ name, ...props }) {

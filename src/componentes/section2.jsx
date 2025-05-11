@@ -17,6 +17,7 @@ const proyectosDestacables = [
     },
     img: apiRick,
     link:"https://eloyapirickandmorty.netlify.app/",
+    github:"",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const proyectosDestacables = [
     },
     img: bienesRaices,
     link:"https://litekeys-proyecto-universidad.netlify.app/",
+     github:"",
   },
 
 ];
@@ -45,17 +47,22 @@ function Section2() {
       <section className="Section2">
         <h1>Proyectos destacables</h1>
         {proyectosDestacables.map((proyecto) => (
-          <div key={proyecto.id} className="contenorProyectosDestacables" onClick={()=> visitarProyecto(proyecto.link)}>
+          <div key={proyecto.id} className="contenorProyectosDestacables" >
             <div className="descripcion">
-              <h2>   {proyecto.titulo} {"   "} <span> {"   "}<Icon name="link" /> </span>   </h2>  
+              <h2>   {proyecto.titulo} {"   "}  </h2>  
                <p>{proyecto.descripcion}</p>
                 
-               <div className="herramientasUtilizadas"> 
-                <p>{proyecto.lenguajes.uno}</p>
-                <p>{proyecto.lenguajes.dos}</p>
-                <p>{proyecto.lenguajes.tres}</p>
-                
-               </div>
+                <div>
+                 <button className="botonVerProyectos" onClick={()=> visitarProyecto(proyecto.link)}> Ver pagina  <span> {"     "}<Icon name="link" /> </span>  </button>
+                 <button className="botonVerProyectos" onClick={()=> visitarProyecto(proyecto.github)}>  Ver codigo  <span> {"     "}<Icon name="github" /> </span> </button>
+                </div>
+              
+               <div className="herramientasUtilizadas">
+                {/*codigo sacado de la ia para poder enfretar mi errro despues de horas de intentar areglarlo por mi solo*/ }
+                  {Object.entries(proyecto.lenguajes).map(([key, value]) => 
+                    value && <p key={key}>{value}</p>
+                  )}
+              </div>
                </div>
                <div className="imagenProyecto"> 
 
