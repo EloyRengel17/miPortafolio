@@ -12,7 +12,8 @@ const otrosProyectos=[
             dos: "Css",
             tres: "",
           },
-          link:""
+          link:"",
+          github:"",
     },
     {   
         id:2,
@@ -23,7 +24,8 @@ const otrosProyectos=[
             dos: "Css",
             tres: "",
           },
-          link:""
+          link:"",
+          github:"",
     },
 
 ]
@@ -41,13 +43,19 @@ function Section3() {
            
         
             {otrosProyectos.map((proyecto)=>(
-                <div className="otrosProyectos" key={proyecto.id} onClick={()=> visitarProyecto(proyecto.link)}> 
-                     <h2>   {proyecto.titulo} {"   "}{" "}   <span>  {" "}   {"   "}  <Icon name="link" />{" "}   </span>{" "}      </h2>
+                <div className="otrosProyectos" key={proyecto.id} > 
+                     <h2>   {proyecto.titulo}      </h2>
                         <p>{proyecto.descripcion}</p>
+                        <div>
+                           <button className="botonVerProyectos" onClick={()=> visitarProyecto(proyecto.link)}> Ver pagina  <span> {"     "}<Icon name="link" /> </span>  </button>
+                           <button className="botonVerProyectos" onClick={()=> visitarProyecto(proyecto.github)}>  Ver codigo  <span> {"     "}<Icon name="github" /> </span> </button>
+                         </div>
         <div className="herramientasUtilizadas">
-                    <p>{proyecto.lenguajes.uno}</p>
-                    <p>{proyecto.lenguajes.dos}</p>
-          </div> 
+                {/*codigo sacado de la ia para poder enfretar mi errro despues de horas de intentar areglarlo por mi solo*/ }
+                  {Object.entries(proyecto.lenguajes).map(([key, value]) => 
+                    value && <p key={key}>{value}</p>
+                  )}
+              </div>
                 </div>
 
             ))}
