@@ -62,3 +62,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Para navegadores WebKit (Chrome, Edge, Safari) */
+
+
+::-webkit-scrollbar-track {
+  background: #140202; /* Color del fondo (track) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: pink; /* Color de la barra */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:pink; /* Color al pasar el mouse */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: auto; /* "auto" o "thin" */
+  scrollbar-color: pink rgb(0, 0, 0) /* thumb y track */
+}
