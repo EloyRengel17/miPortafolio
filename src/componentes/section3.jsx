@@ -27,6 +27,17 @@ const otrosProyectos=[
           link:"",
           github:"",
     },
+    {   
+        id:2,
+        titulo:"Tienda",
+        descripcion:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+        lenguajes: {
+            uno: "React",
+           
+          },
+          link:"https://tienda-eloy.netlify.app/",
+          github:"https://github.com/EloyRengel17/Tienda-eloy.git",
+    },
 
 ]
 
