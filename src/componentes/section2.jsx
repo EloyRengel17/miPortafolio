@@ -17,7 +17,7 @@ const proyectosDestacables = [
     },
     img: apiRick,
     link:"https://eloyapirickandmorty.netlify.app/",
-    github:"",
+    github:"https://github.com/EloyRengel17/ConexionApi",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const proyectosDestacables = [
 
 ];
 
-function Section2() {
+function Section2({id}) {
     function visitarProyecto(link){
         window.open(link,"_blanck");
     }
@@ -44,7 +44,7 @@ function Section2() {
   
   return (
     <>
-      <section className="Section2">
+      <section className="Section2" id={id}>
         <h1>Proyectos destacables</h1>
         {proyectosDestacables.map((proyecto) => (
           <div key={proyecto.id} className="contenorProyectosDestacables" >

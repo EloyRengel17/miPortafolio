@@ -179,3 +179,104 @@ header img:hover h1{
   
   background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(255, 192, 203, 0.151));
 }
+/* En tu App.css */
+section {
+  scroll-margin-top: 80px; /* Ajusta según la altura de tu navbar */
+}
+
+.section4{
+  padding-top: 8rem;
+ display: flex;
+ justify-content: space-between;
+  height: 50%;
+}
+.contacto{
+  margin-right: 4rem;
+  
+  border-radius: 5px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.contacto h1{
+  color: pink;
+}
+.nombre input{
+  border: none;
+  border-radius: 5px;
+  margin-top:-1rem ;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  padding-left: 0.2rem;
+}
+.Correo input{
+   border: none;
+  border-radius: 5px;
+  margin-top:-1rem ;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  padding-left: 0.2rem;
+
+}
+.mensaje input, 
+.mensaje textarea {
+  width: 100%;
+  min-height: 150px; /* Altura inicial */
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permite redimensionar verticalmente */
+  font-family: inherit;
+    font-size: 1.2rem;
+
+  vertical-align: top; /* Alinea el texto arriba */
+  line-height: 1.5;
+}
+
+/* Especificamente para textarea (si es el campo de mensaje) */
+.mensaje textarea {
+  white-space: pre-wrap; /* Mantiene los saltos de línea */
+  overflow-y: auto; /* Muestra scroll si es necesario */
+}
+
+/* Para que el texto comience desde arriba */
+.mensaje textarea::placeholder {
+  vertical-align: top;
+}
+.contacto button{
+  margin-top: 1rem;
+  width: 100%;
+  background-color: pink;
+  color: black;
+  border: none;
+}
+.contacto button:hover{
+  transition: 0.8s;
+  background-color: black;
+  color: pink;
+}
+.derecha-section4 {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;    /* Centrado vertical */
+            /* Necesita una altura definida */
+  width: 50%;            /* Opcional: asegura ancho completo */
+}
+
+.derecha-section4 h1 .commet {
+  font-size: 10rem;
+  color: pink;
+  margin: 0;              /* Elimina márgenes por defecto del h1 */
+  text-align: center;     /* Centrado de texto (redundante pero útil) */
+}
+.footer{
+  margin: 0rem -6rem;
+  margin-bottom: -2.5rem;
+  background-color: black;
+  text-align: center;
+ 
+}
+.footer h1{
+   padding: 1rem;
+}

@@ -5,6 +5,7 @@ import {
   faUser,
   faEnvelope,
   faArrowUpRightFromSquare,
+  faComments,
 } from '@fortawesome/free-solid-svg-icons';
 import { 
   faLinkedin, 
@@ -29,7 +30,8 @@ const icons = {
   react: faReact,
   node: faNode,
   link: faArrowUpRightFromSquare,
-  github: faGithub, // Ahora sí está definido
+  github: faGithub, 
+  comment: faComments,
 };
 
 export default function Icon({ name, ...props }) {

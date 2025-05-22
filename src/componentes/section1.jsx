@@ -2,10 +2,10 @@ import { useState } from "react";
 import '../App.css'
 import Icon from "./iconos";
 
-function Section1 (){
+function Section1 ({id}){
     return(
         <>
-            <section className="Section1">
+            <section className="Section1" id={id} >
 
                 <div className="contenedorSobreMi">
                     <h2>Sobre mi</h2>
