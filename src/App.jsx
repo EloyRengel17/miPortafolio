@@ -5,7 +5,8 @@ import Navegacion from './componentes/navegacion.jsx'
 import Section1 from './componentes/section1.jsx'
 import Section2 from './componentes/section2.jsx'
 import Section3 from './componentes/section3.jsx'
-import NuecoComponente from "./componentes/componentePueba.jsx"
+import Contacto from "./componentes/contacto.jsx"
+import Footer from './componentes/footer.jsx'
 import './App.css'
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
     <>
     <Navegacion/>
       <Header/>
-      <Section1/>
-      <Section2/>
+      <Section1 id="sobre-mi"/>
+      <Section2 id="proyectos"/>
       <Section3/>
-      <NuecoComponente/>
+      <Contacto id="contacto"/>
+      <Footer/>
     </>
   )
 }
