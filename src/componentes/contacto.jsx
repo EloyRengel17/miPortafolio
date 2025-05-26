@@ -1,10 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Icon from "./iconos";
 import "../App.css";
 
 function Contacto({ id }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
   return (
     <>
+    <main>
       <div className="section4">
         <div id={id} className="contacto">
           <h1>Ponte En Contacto</h1>
@@ -24,12 +33,15 @@ function Contacto({ id }) {
           </div>
           <button>Enviar</button>
         </div>
-
+         {!isMobile && (
         <div className="derecha-section4">
           <h1><Icon name="comment" className="commet"  /></h1>
         </div>
+         )}
       </div>
+      </main>
     </>
   );
 }
 export default Contacto;
+//utilize esta libreria (npm install react-responsive)

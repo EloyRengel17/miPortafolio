@@ -5,6 +5,7 @@ import Icon from "./iconos";
 function Section1 ({id}){
     return(
         <>
+        <main>
             <section className="Section1" id={id} >
 
                 <div className="contenedorSobreMi">
@@ -24,6 +25,7 @@ function Section1 ({id}){
                     <Icon name="node"className="iconos"/>
                 </div>
             </section>
+            </main>
         </>
     )
 }
