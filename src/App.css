@@ -214,20 +214,14 @@ main{
   .contenorProyectosDestacables {
     flex-direction: column;
   }
-  
   .imagenProyecto {
     flex: 1 1 100%;
     order: -1; /* Mueve la imagen arriba en móviles */
   }
-  
   .descripcion {
     padding-right: 0;
   }
- 
 }
-
-
-
 /*Estilos para el Section3*/
 .Section3{
   margin-top: 20rem;
@@ -345,6 +339,7 @@ section {
     width: 100%;
 }
  .contacto{
+  /*para el div contacto*/
   margin-right: 0;
   border-radius: 5px;
   padding: 0rem;
