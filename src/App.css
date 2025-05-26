@@ -6,7 +6,7 @@ nav{
   margin-bottom: -2rem;
 }
  main{
-    margin: 2rem;
+    margin: 10rem;
   }
 nav a{
   padding-right: 1.5rem ;
@@ -95,8 +95,10 @@ header img:hover h1{
   margin: 1rem;
   color: pink;
 }
-@media (max-width: 768px){
- 
+@media (max-width: 878px){
+ main{
+    margin: 2rem;
+  }
   .Section1{
   margin-top: 20rem;
   border: 1px solid white;
@@ -207,7 +209,7 @@ header img:hover h1{
 
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 878px) {
   .contenorProyectosDestacables {
     flex-direction: column;
   }
@@ -236,7 +238,7 @@ header img:hover h1{
   gap: 2rem; /* Espacio entre elementos */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 878px) {
  .contendorGenearalotrosProyectos {
     display: flex;
     flex-direction: column; /* Cambia la dirección a columna */
@@ -335,7 +337,7 @@ section {
   margin: 0;              /* Elimina márgenes por defecto del h1 */
   text-align: center;     /* Centrado de texto (redundante pero útil) */
 }
-@media(max-width: 764px){
+@media(max-width: 878px){
   .section4{
     padding-top: 8rem;
 
