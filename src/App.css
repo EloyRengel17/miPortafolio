@@ -351,13 +351,11 @@ section {
   width: 100%
 }
 }
-
 .footer{
   margin: 0rem -6rem;
   margin-bottom: -2.5rem;
   background-color: black;
   text-align: center;
- 
 }
 .footer h1{
    padding: 1rem;
