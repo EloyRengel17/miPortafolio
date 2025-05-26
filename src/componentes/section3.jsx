@@ -49,6 +49,7 @@ function Section3() {
     }
   return (
   <>
+  <main>
     <section className="Section3">
       <h1>Otros Proyectos</h1>
       <div className="contendorGenearalotrosProyectos">
@@ -72,6 +73,7 @@ function Section3() {
         ))}
       </div>
     </section>
+    </main>
   </>
 );
 }

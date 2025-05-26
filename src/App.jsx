@@ -20,7 +20,7 @@ function App() {
       <Section2 id="proyectos"/>
       <Section3/>
       <Contacto id="contacto"/>
-      <Footer/>
+      
     </>
   )
 }

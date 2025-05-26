@@ -44,6 +44,7 @@ function Section2({id}) {
   
   return (
     <>
+    <main>
       <section className="Section2" id={id}>
         <h1>Proyectos destacables</h1>
         {proyectosDestacables.map((proyecto) => (
@@ -80,6 +81,7 @@ function Section2({id}) {
 
       
       </section>
+      </main>
     </>
   );
 }
