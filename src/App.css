@@ -96,9 +96,7 @@ header img:hover h1{
   color: pink;
 }
 @media (max-width: 878px){
- main{
-    margin: 2rem;
-  }
+
   .Section1{
   margin-top: 20rem;
   border: 1px solid white;
@@ -122,6 +120,9 @@ header img:hover h1{
   margin: 0.5rem;
   color: pink;
 }
+main{
+    margin: 2rem;
+  }
 
 }
 /*estilos para contenedor 2*/
@@ -213,20 +214,14 @@ header img:hover h1{
   .contenorProyectosDestacables {
     flex-direction: column;
   }
-  
   .imagenProyecto {
     flex: 1 1 100%;
     order: -1; /* Mueve la imagen arriba en móviles */
   }
-  
   .descripcion {
     padding-right: 0;
   }
- 
 }
-
-
-
 /*Estilos para el Section3*/
 .Section3{
   margin-top: 20rem;
@@ -344,19 +339,18 @@ section {
     width: 100%;
 }
  .contacto{
+  /*para el div contacto*/
   margin-right: 0;
   border-radius: 5px;
   padding: 0rem;
   width: 100%
 }
 }
-
 .footer{
   margin: 0rem -6rem;
   margin-bottom: -2.5rem;
   background-color: black;
   text-align: center;
- 
 }
 .footer h1{
    padding: 1rem;
