@@ -22,7 +22,7 @@ function App() {
       <Contacto id="contacto"/>
       {/* Aquí se renderiza la escena 3D de la tarjeta */}
       
-      <Footer/>
+      {/*}  <Footer/>{*/}
     </>
   )
 }
