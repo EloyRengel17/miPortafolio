@@ -7,13 +7,13 @@ import Section2 from './componentes/section2.jsx'
 import Section3 from './componentes/section3.jsx'
 import Contacto from "./componentes/contacto.jsx"
 import Footer from './componentes/footer.jsx'
-import ThreeDCardScene from './componentes/prueba.jsx' // Importa el nuevo componente de la escena 3D
+//import ThreeDCardScene from './componentes/prueba.jsx' // Importa el nuevo componente de la escena 3D
 import './App.css'
 
 function App() {
   return (
     <>
-    <ThreeDCardScene/> 
+      {/*} <ThreeDCardScene/> {*/}
       <Navegacion/>
       <Header/>
       <Section1 id="sobre-mi"/>
