@@ -79,4 +79,5 @@ function Contacto({ id }) {
   );
 }
 export default Contacto;
-//utilize esta libreria (npm install react-responsive)
+//utilice esta libreria (npm install react-responsive)
+// utilice esta libreria (npm install sweetalert2) para mostrar modal una vez el proceso de contacto sea exitoso 
