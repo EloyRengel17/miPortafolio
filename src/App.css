@@ -137,6 +137,13 @@ main{
   display: flex;
   padding: 1rem;
   gap: 3rem; /* Espacio entre descripción e imagen */
+ 
+
+}
+.contenorProyectosDestacables:hover{
+  
+  background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(255, 192, 203, 0.151));
+
 }
 
 /* Descripción */
@@ -165,6 +172,7 @@ main{
   margin: 0; 
   white-space: nowrap; /* Evita saltos de línea en textos cortos */
   font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 /* Imagen del proyecto */
@@ -195,6 +203,7 @@ main{
   transition: all 0.3s ease;
   padding: 0.5rem 1rem;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .botonVerProyectos:hover {
@@ -351,6 +360,7 @@ section {
   margin-bottom: -2.5rem;
   background-color: black;
   text-align: center;
+  width: 120vw;
 }
 .footer h1{
    padding: 1rem;
