@@ -10,9 +10,9 @@ function Section1 ({id}){
 
                 <div className="contenedorSobreMi">
                     <h2>Sobre mi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse. Placeat laboriosam nisi blanditiis delectus molestias, accusantium quas possimus cumque dolores! Rerum sint ex reiciendis id totam natus nisi blanditiis!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sed labore repellendus harum, culpa minima maiores corporis incidunt aliquam, adipisci eligendi consequuntur? Corrupti facilis incidunt ratione, magni omnis error id.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro blanditiis? Sint impedit soluta natus perspiciatis recusandae, aspernatur tempore porro assumenda hic eveniet sed, cum, inventore eaque reiciendis laborum corporis!</p>
+                    <p>Soy estudiante de Ingeniería en Informática, apasionado por la tecnología y su constante evolución. Me encanta aprender sobre las herramientas y lenguajes más recientes, siempre buscando cómo aplicarlos en proyectos reales. A lo largo de mi formación, he trabajado en varios proyectos, tanto individuales como en equipo, lo que me ha permitido desarrollar habilidades técnicas y de colaboración.</p>
+                    <p>Aunque me inclino más hacia el desarrollo backend, entiendo que una aplicación o página web debe ser funcional y fácil de usar, por lo que también valoro un buen frontend. He trabajado con diferentes tecnologías, algunas de las cuales he aprendido mediante cursos, y en varios de mis proyectos he incluido documentación detallada para asegurar su claridad y mantenimiento.</p>
+                    <p>Actualmente, tengo un nivel básico de inglés, pero estoy en constante aprendizaje, tanto del idioma como de nuevas tecnologías. Me esfuerzo cada día por mejorar y ampliar mis conocimientos, ya que creo que la adaptación y el crecimiento son claves en este campo.</p>
                 </div>
 
                 <div className="contenedorHabilidades">
@@ -23,6 +23,8 @@ function Section1 ({id}){
                     <Icon name="js" className="iconos"/>
                     <Icon name="react" className="iconos"/>
                     <Icon name="node"className="iconos"/>
+                    <Icon name="github" className="iconos"/> 
+                    <Icon name="php" className="iconos"/> 
                 </div>
             </section>
             </main>

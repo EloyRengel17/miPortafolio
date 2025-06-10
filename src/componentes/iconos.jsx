@@ -16,6 +16,7 @@ import {
   faReact,
   faNode,
   faGithub, // ¡Importa el ícono de GitHub!
+  faPhp,
 } from '@fortawesome/free-brands-svg-icons'; // Asegúrate de que esté en esta colección
 
 const icons = {
@@ -32,6 +33,7 @@ const icons = {
   link: faArrowUpRightFromSquare,
   github: faGithub, 
   comment: faComments,
+  php: faPhp,
 };
 
 export default function Icon({ name, ...props }) {
