@@ -9,7 +9,7 @@ const proyectosDestacables = [
     id: 1,
     titulo: "API Rick and Morty",
     descripcion:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+      "Este proyecto es una aplicación web que consume la API de Rick and Morty, permitiendo visualizar, buscar y filtrar todos los personajes disponibles. Desarrollado principalmente con JavaScript, se complementó con HTML y CSS para garantizar una interfaz intuitiva y atractiva.",
     lenguajes: {
       uno: "JAVASCRIPT",
       dos: "HTML",
@@ -23,7 +23,7 @@ const proyectosDestacables = [
     id: 2,
     titulo: "bienes raices",
     descripcion:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+      "ste proyecto recrea una landing page para una inmobiliaria, desarrollada como ejercicio práctico para dominar HTML y explorar diversas técnicas de CSS. El enfoque principal fue implementar diseños y aplicar estilos avanzados.",
     lenguajes: {
       uno: "HTML",
       dos: "Css",

@@ -6,7 +6,7 @@ const otrosProyectos=[
     {   
         id:1,
         titulo:"Mi Portafolio",
-        descripcion:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+        descripcion:  "Portafolio digital diseñado para mostrar mi perfil profesional y habilidades técnicas a empresas del sector.Combina diseño atractivo con funcionalidad para presentar mis proyectos y experiencia de manera efectiva.",
         lenguajes: {
             uno: "React",
             dos: "Css",
@@ -18,7 +18,7 @@ const otrosProyectos=[
     {   
         id:2,
         titulo:"Proyecto Acceso",
-        descripcion:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+        descripcion:  "Este proyecto demuestra mis habilidades en backend mediante un sistema de login seguro, implementando validaciones de formulario y conexión a base de datos",
         lenguajes: {
             uno: "React.js",
             dos: "Node.js",
@@ -31,7 +31,7 @@ const otrosProyectos=[
     {   
         id:2,
         titulo:"Tienda",
-        descripcion:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci voluptatibus suscipit recusandae consequuntur ut. Aliquam eveniet sit debitis odit vel ea explicabo, voluptates, atque qui obcaecati aspernatur, perferendis amet.",
+        descripcion:  "PAgina desarrollada con React para demostrar habilidades en frameworks frontend. Implementa funcionalidades como catalgo de productos y los detalles de este mismo",
         lenguajes: {
             uno: "React",
            

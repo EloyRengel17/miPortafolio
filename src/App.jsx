@@ -1,5 +1,6 @@
 import { useState } from 'react'
-
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import Header from './componentes/header.jsx'
 import Navegacion from './componentes/navegacion.jsx'
 import Section1 from './componentes/section1.jsx'
@@ -13,16 +14,16 @@ import './App.css'
 function App() {
   return (
     <>
-      {/*} <ThreeDCardScene/> {*/}
+      
+        <I18nextProvider i18n={i18n}>
       <Navegacion/>
       <Header/>
       <Section1 id="sobre-mi"/>
       <Section2 id="proyectos"/>
       <Section3/>
       <Contacto id="contacto"/>
-      {/* Aquí se renderiza la escena 3D de la tarjeta */}
-      
-      {/*}  <Footer/>{*/}
+      </I18nextProvider>
+    
     </>
   )
 }
