@@ -19,9 +19,9 @@ function Header() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-        const changeLanguage = (lng) => {
+      /*  const changeLanguage = (lng) => {
             i18n.changeLanguage(lng);
-        };
+        };*/
   return (
     <header>
       {/* div para ubicar los botones y cambiar de idioma
