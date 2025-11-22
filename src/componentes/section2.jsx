@@ -21,9 +21,9 @@ const proyectosDestacables = [
   },
   {
     id: 2,
-    titulo: "bienes raices",
+    titulo: "Bienes Raíces",
     descripcion:
-      "ste proyecto recrea una landing page para una inmobiliaria, desarrollada como ejercicio práctico para dominar HTML y explorar diversas técnicas de CSS. El enfoque principal fue implementar diseños y aplicar estilos avanzados.",
+      "Este proyecto recrea una landing page para una inmobiliaria, desarrollada como ejercicio práctico para dominar HTML y explorar diversas técnicas de CSS. El enfoque principal fue implementar diseños y aplicar estilos avanzados.",
     lenguajes: {
       uno: "HTML",
       dos: "Css",
