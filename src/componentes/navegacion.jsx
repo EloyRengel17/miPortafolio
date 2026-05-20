@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import curriculum from '../assets/CvEloyRengelultimo2025.pdf';
+import curriculum from '../assets/Cv Eloy Rengel M.pdf';
 import imagen from '../assets/miFoto.jpg'
 
 import { useTranslation } from 'react-i18next'; //libreria para traducir la pagina

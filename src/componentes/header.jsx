@@ -48,11 +48,11 @@ function Header() {
 
       <h1>{t('header.title')}</h1>
       <h3>{t('header.subtitle')}</h3>
-      <p>{t('header.education')}</p>
+      <p>{t('Ingeniero en informática')}</p>
       <p>{t('header.projects')}</p>
 
       <div className="iconos-container">
-        <Icon name="email" className="iconos" onClick={() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=eloypanita@gmail.com")} />
+        <Icon name="email" className="iconos" onClick={() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=eloyrengel17@gmail.com")} />
         <Icon name="linkedin" className="iconos" onClick={() => irlink("https://www.linkedin.com/in/eloy-rengel/")} />
         <Icon name="github" className="iconos" onClick={() => irlink("https://github.com/EloyRengel17")} />
       </div>
