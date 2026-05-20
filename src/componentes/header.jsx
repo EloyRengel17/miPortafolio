@@ -19,27 +19,10 @@ function Header() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-      /*  const changeLanguage = (lng) => {
-            i18n.changeLanguage(lng);
-        };*/
+     
   return (
     <header>
-      {/* div para ubicar los botones y cambiar de idioma
-      <div className="language-switcher">
-        <button 
-          onClick={() => changeLanguage('es')} 
-          className={i18n.language === 'es' ? 'active' : ''}
-        >
-          ES
-        </button>
-        <button 
-          onClick={() => changeLanguage('en')}
-          className={i18n.language === 'en' ? 'active' : ''}
-        >
-          EN
-        </button>
-      </div>
-      */}
+    
       {isMobile && (
         <div className="imagen-arriba">
           <img src={imagen} alt="Eloy Rengel" className="imagenResponsive" />
