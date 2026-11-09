@@ -4,9 +4,25 @@ import "../App.css";
 import apiRick from "../assets/image1.png";
 import bienesRaices from "../assets/imagebr.png";
 import ProyectoCalculadora from "../assets/ProyectoCalculadora.png"
+import ProyectoGymStrike from "../assets/ProyectoGymStrike.png";
 const proyectosDestacables = [
   {
     id: 1,
+    titulo: "GymStrike: Sistema de Control de Acceso para Gimnasios",
+    descripcion:
+      "Plataforma para administrar un gimnasio: registro de clientes, control de membresías y pagos, y validación de acceso según el estado de cada membresía. Incluye una verificación diaria automática que envía alertas por WhatsApp a los clientes según su estado. El backend es una API REST en NestJS con base de datos PostgreSQL, y el panel de administración web está hecho en React. Todo el entorno corre con Docker. Proyecto en desarrollo: la aplicación móvil está pendiente.",
+    lenguajes: {
+      uno: "Nest.js",
+      dos: "typescript",
+      tres: "React.js",
+      cuatro: "PostgreSQL"
+    },
+    img: ProyectoGymStrike,
+    link: "https://github.com/EloyRengel17/GymStrike",
+    github: "https://github.com/EloyRengel17/GymStrike",
+  },
+  {
+    id: 2,
     titulo: "Análisis de Presupuesto de Potencia Óptica",
     descripcion:
       "Esta solución tecnológica para Corporación Telemic automatiza el cálculo del presupuesto óptico para acelerar el diagnóstico de fallas en redes GPON. El sistema integra una base de datos y un sistema de control de acceso (login/registro) con operaciones CRUD para la administración de usuarios. Con esto, se garantiza un entorno seguro e intuitivo que optimiza drásticamente los tiempos de respuesta ante pérdidas de señal, pudiendo asi determinar en que zona esta la falla ",
@@ -21,7 +37,7 @@ const proyectosDestacables = [
      github:"https://github.com/EloyRengel17/Calculadora-Presupuesto-ptico",
   },
   {
-    id: 2,
+    id: 3,
     titulo: "API Rick and Morty",
     descripcion:
       "Este proyecto es una aplicación web que consume la API de Rick and Morty, permitiendo visualizar, buscar y filtrar todos los personajes disponibles. Desarrollado principalmente con JavaScript, se complementó con HTML y CSS para garantizar una interfaz intuitiva y atractiva.",
@@ -35,7 +51,7 @@ const proyectosDestacables = [
     github:"https://github.com/EloyRengel17/ConexionApi",
   },
   {
-    id: 3,
+    id: 4,
     titulo: "Bienes Raíces",
     descripcion:
       "Este proyecto recrea una landing page para una inmobiliaria, desarrollada como ejercicio práctico para dominar HTML y explorar diversas técnicas de CSS. El enfoque principal fue implementar diseños y aplicar estilos avanzados.",
